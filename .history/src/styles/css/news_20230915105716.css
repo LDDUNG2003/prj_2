@@ -1,0 +1,37 @@
+.news--contet {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.news--content-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.news--content-item {
+    width: 33%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.news--item-img {
+    width: 100%;
+}
+
+.news--item-contain {
+    margin: 15px;
+}
+
+.news--contain-heading {
+    font-size: 18px;
+    color: var(--primary-color);
+    text-transform: uppercase;
+}
+
+.news--contain-text {
+    padding: 10px 0px 0px 0px;
+    font-size: 16px;
+}
