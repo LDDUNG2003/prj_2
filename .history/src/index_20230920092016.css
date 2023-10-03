@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Gotham-Medium";
+    src: url(./front/Gotham-Medium.otf);
+}
+
+@font-face {
+    font-family: "Gotham-Thin";
+    src: url(./front/Gotham-Thin.otf);
+}
+
+@font-face {
+    font-family: "Gotham-Ultra";
+    src: url(./front/Gotham-Ultra.otf);
+}

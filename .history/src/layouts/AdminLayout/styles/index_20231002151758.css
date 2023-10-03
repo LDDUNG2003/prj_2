@@ -1,0 +1,22 @@
+.admin_laybel {
+    display: flex;
+    width: 100%;
+    max-width: 1300px;
+    justify-content: space-between;
+}
+
+.admin-List {
+    display: flex;
+    padding: 10px;
+    list-style: none;
+}
+
+.Admin-item {
+    padding: 5px;
+}
+
+.admin-Link {
+    font-size: 1rem;
+    color: var(--primary-color);
+    text-decoration: none;
+}

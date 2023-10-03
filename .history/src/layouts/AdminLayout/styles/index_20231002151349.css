@@ -1,0 +1,9 @@
+.admin-List {
+    display: flex;
+    padding: 10px;
+    list-style: none;
+}
+
+.Admin-item {
+    padding: 5px;
+}

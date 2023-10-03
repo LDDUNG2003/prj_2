@@ -1,0 +1,64 @@
+.Admin-content {
+    height: 100%;
+}
+
+.logo-admin {
+    width: 50px;
+}
+
+.admin_laybel {
+    background-color: var(--primary-color);
+    display: flex;
+    width: 100%;
+    max-width: 1300px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.admin-List {
+    display: flex;
+    padding: 10px;
+    list-style: none;
+}
+
+.Admin-item {
+    padding: 15px;
+}
+
+.admin-Link {
+    font-size: 1rem;
+    color: var(--text-color);
+    text-decoration: none;
+    text-transform: capitalize;
+    width: 100%;
+    display: block;
+}
+
+.admin-content {
+    display: flex;
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    height: 100%;
+}
+
+.Menu-Admin {
+    width: 180px;
+    height: 100%;
+    background-color: var(--primary-color);
+}
+
+.Menu-List {
+    list-style: none;
+}
+
+.Menu-List--item {
+    padding-left: 20px;
+    padding-top: 10px;
+    border-bottom: 2px solid #ccc;
+    width: 100%;
+}
+
+.Menu-List--item:hover {
+    background-color: wheat !important;
+}

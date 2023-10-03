@@ -1,0 +1,135 @@
+@media (min-width:767px) {
+    #mobileMenu {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    #root {
+        margin: 0px 5px;
+    }
+    #mobileMenu {
+        display: block;
+        text-align: center;
+    }
+    .logo--block {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .navBar {
+        display: block;
+        height: auto;
+    }
+    .choose-item {
+        width: 100%;
+    }
+    .menu-mobile {
+        width: 40px;
+        height: 40px;
+        padding: 10px;
+        border: 0px;
+        background-color: var(--primary-color);
+    }
+    .navBar__list {
+        display: none;
+        width: 100%;
+    }
+    .navBar__list-item {
+        padding: 4px;
+        border-bottom: 2px solid #ccc;
+    }
+    .about__us {
+        background: none;
+    }
+    .about__us::before {
+        background: none;
+    }
+    .content__focut {
+        position: static;
+    }
+    .focut--item {
+        width: 50%;
+    }
+    .content__banner {
+        width: 100%;
+    }
+    .banner--content {
+        display: none;
+    }
+    .slick-prev:before,
+    .slick-next:before {
+        display: none;
+    }
+    .about--background {
+        display: none;
+    }
+    .about__us-bag {
+        position: static;
+    }
+    .about--block {
+        display: block;
+    }
+    .about--content {
+        width: 100%;
+        color: var(--text-color);
+    }
+    .about--content img {
+        width: 100%;
+    }
+    .content--title {
+        color: var(--text-color);
+    }
+    .news--contain {
+        display: block;
+    }
+    .mobile-display {
+        display: none;
+    }
+    .news--contain--item {
+        width: 100%;
+    }
+    .news--list-item {
+        width: 100%;
+        overflow: hidden;
+    }
+    .news--list-item img {
+        height: 100%;
+    }
+    .partner--list {
+        flex-wrap: wrap;
+    }
+    .partner--item {
+        width: 50%;
+    }
+    .content--contact {
+        display: none;
+    }
+    .footer__lable {
+        display: block;
+    }
+    .footer--list {
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .footer--list-item {
+        width: 100%;
+        padding: 5px 0px;
+    }
+    /* news responsive */
+    .news--content-list {
+        margin: 0px 20px;
+    }
+    .news--content-item {
+        width: 100%;
+    }
+    .featured--list {
+        width: 100%;
+        margin: 10px;
+        flex-wrap: wrap;
+    }
+    .featured--item {
+        width: 100%;
+    }
+}
