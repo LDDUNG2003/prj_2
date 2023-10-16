@@ -1,0 +1,44 @@
+{
+    "name": "font-end",
+    "version": "0.2.0",
+    "private": true,
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^6.4.2",
+        "@fortawesome/fontawesome-svg-core": "^6.4.2",
+        "@fortawesome/free-solid-svg-icons": "^6.4.2",
+        "@fortawesome/react-fontawesome": "^0.2.0",
+        "customize-cra": "^1.0.0",
+        "font-awesome": "^4.7.0",
+        "prop-types": "^15.8.1",
+        "react": "^18.2.0",
+        "react-app-rewired": "^2.2.1",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.16.0",
+        "react-scripts": "^5.0.1",
+        "react-slick": "^0.29.0",
+        "serve": "^14.2.1",
+        "slick": "^1.12.2",
+        "slick-carousel": "^1.8.1"
+    },
+    "scripts": {
+        "start": "react-app-rewired start",
+        "build": "react-app-rewired build",
+        "test": "react-app-rewired test",
+        "eject": "react-scripts eject"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "babel-plugin-module-resolver": "^5.0.0"
+    }
+}

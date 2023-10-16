@@ -1,0 +1,9 @@
+.admin-local-portfolio {
+    display: flex;
+    align-items: center;
+    border-bottom-width: 1px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: .625rem;
+    height: 3.5rem;
+}

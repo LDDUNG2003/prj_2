@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Gotham-Medium";
+    src: url(./styles/front/Gotham-Medium.otf);
+}
+
+@font-face {
+    font-family: "Gotham-Thin";
+    src: url(./styles/front/Gotham-Thin.otf);
+}
+
+@font-face {
+    font-family: "Gotham-Ultra";
+    src: url(./styles/front/Gotham-Ultra.otf);
+}
+
+html,
+body {
+    height: 100%;
+}
+
+#root {
+    height: 100%;
+}
+
+.App {
+    height: 100%;
+}

@@ -1,0 +1,41 @@
+.content__featured-slider {
+    width: 100%;
+    margin: auto !important;
+    max-width: 1600px;
+    height: auto;
+    /* set max height */
+    overflow: hidden;
+}
+
+.slider--list {
+    width: 100%;
+}
+
+.slider--item {
+    width: 100%;
+}
+
+.slider--image {
+    width: 100%;
+}
+
+.slider--image img {
+    /* width: 100%; */
+    height: 100%;
+}
+
+.product--title {
+    font-size: 23px;
+    line-height: 24px;
+    padding: 25px;
+    position: relative;
+}
+
+.product--title::before {
+    content: "";
+    width: 120px;
+    padding-top: 10px;
+    position: absolute;
+    background-color: var(--primary-color);
+    bottom: 10px;
+}
